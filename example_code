@@ -1,0 +1,5 @@
+function main
+inc a 4
+inc b a
+inc a b
+return a

@@ -1,7 +1,6 @@
 /*
- *
- *      Author: Samed Kahyaoglu / Urtuba
- *
+ *AUTHOR: Samed Kahyaoglu
+ *GITHUB: urtuba
  */
 
 #ifndef RUNTIME_H_

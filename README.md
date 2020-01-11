@@ -50,7 +50,7 @@ This function call initializes all variables for this call except <b><em>e</em><
 Each Tea program has a <strong>main function</strong> and starts from this function. It is not necessity to place functions in certain order. A function can be defined and called before or after another functions including main.
 
 ### Input / Coding with tea
-<div style="background-color: lightgrey">
+<div style="background-color: black, color: white">
 
 #### example1.tea
 <pre>
@@ -154,6 +154,15 @@ Each Tea program has a <strong>main function</strong> and starts from this funct
 </table>
 Then program outputs 7.
 
+### How to Run
+compile:
+```
+g++ tea.cpp -o tea.exe
+```
+run:
+```
+tea.exe example_code
+```
 ### Notes
 
 As I code this program, there is a problem with variables. They should initialize at start but every function uses new set of variables. Also functions can call functions, so i cannot use just one set of inputs for main, one for calling functions. I needed segmentated memory.

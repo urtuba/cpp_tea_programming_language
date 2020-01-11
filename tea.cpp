@@ -1,7 +1,6 @@
 /*
- *
- *      Author: Samed Kahyaoglu / Urtuba
- *      
+ *AUTHOR: Samed Kahyaoglu
+ *GITHUB: urtuba
  */
 
 #define MAX_STATEMENTS 100
